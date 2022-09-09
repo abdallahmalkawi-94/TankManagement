@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/system/{macAddress}' , [SystemDeviceController::class , 'index'])->name('index');
+Route::get('/test' , [SystemDeviceController::class , 'test'])->name('test');

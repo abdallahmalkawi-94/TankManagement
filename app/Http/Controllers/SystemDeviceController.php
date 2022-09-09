@@ -110,4 +110,8 @@ class SystemDeviceController extends Controller
         return response()->json(['message' => 'Data Updated Successfully']);
 
     }
+
+    public function test() {
+        return \view('test');
+    }
 }
